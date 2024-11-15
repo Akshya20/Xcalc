@@ -14,9 +14,6 @@ function App() {
       <button onClick={() =>{
          setcount((t) => t-1)
       }}>Decrement</button>
-      <button onClick={() =>{
-         setcount((t) => t=0)
-      }}>Stop</button>
     </div>
   );
 }
