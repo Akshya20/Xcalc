@@ -6,8 +6,8 @@ function App() {
   
   return (
     <div >
-      <h1>Counter</h1>
-      <p>count: {count}</p>
+      <h1>Counter App</h1>
+      <p>Count: {count}</p>
       <button onClick={() =>{
         setcount((t) => t+1)
       }}>Increment</button>
